@@ -127,4 +127,5 @@ def slide2(event):
 
 fig2.canvas.mpl_connect('button_press_event', slide2)
 
+plt.show()
 conn.close()
